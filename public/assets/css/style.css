@@ -1,0 +1,194 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../images/space.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Mina', sans-serif;
+    font-weight: bolder;
+    color:black;
+   
+}
+.titleJumbotron {
+    margin: 0px;
+    background: url("../images/jumbo.jpg") no-repeat center center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.headerDivJumbotron {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:white;
+    text-align: center;
+    border: 5px solid black;
+    padding: 20px;
+    opacity:.95;
+}
+
+#headerJumbotron {
+    font-size: 75px;
+    border-bottom: 2px solid black;
+    background-color: white;
+}
+
+#subheaderJumbotron {
+    background-color:white;
+    font-size: 40px;
+    margin-bottom:10px;
+}
+
+#navbar {
+    background-color:black;
+	padding: 10px 30px 10px 30px;
+    overflow: hidden;
+    font-size:25px;
+}
+
+.navLink {
+    color: white;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:grey;
+    z-index: 2;
+}
+.articleColumn {
+   width:600px;
+}
+.buttonColumn {
+    float:right;
+    clear:both;
+}
+
+.card-header {
+    background-color:grey;
+    font-size:28px;
+}
+
+.card {
+    margin-top: 20px;
+    overflow: visible;
+}
+
+.card-body {
+    overflow: hidden;
+    display: flex;
+}
+
+.headlineLink {
+    text-decoration: none;
+    color: white
+}
+
+.headlineLink:hover {
+    text-decoration: none;
+    color: blue
+}
+
+p {
+    font-size:20px;
+}
+
+.articleImage {
+    width: 100%
+}
+
+.buttonColumn {
+    text-align:center;
+}
+.btn{
+    font-size:22px;
+    padding:8px;
+}
+.buttonRow{
+    padding:0;
+    margin-right:40%;
+}
+.saveArticleButton {
+    margin-top: 10px;
+    padding: 10px;
+    font-size:24px;
+}
+
+.addNoteButton {
+    margin-left:18px;
+    border: solid white 1px;
+}
+
+.deleteSavedArticleButton {
+    background-color: red;
+    margin-bottom:15px;
+    border: solid white 1px;
+}
+
+
+.modal-content {
+    text-align:center;
+    font-weight:bold;
+}
+
+.modal-header {
+    background-color:grey;
+    color: white;
+    text-align:center;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    text-align:center;
+    font-size: 40px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 24px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #f13716;
+    border-color: black;
+}
+
+.saveNoteButton {
+    background-color: rgb(5, 199, 5);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.buttonRow {
+    margin-top: 10px
+}
+
+#titleinput,
+#bodyinput {
+    width: 100%
+}
+
+.articleContainer {
+    padding-bottom: 50px;
+    padding-top: 20px
+}
+
+.noteCard {
+    display: block;
+    width: 100%
+}
+
+.noteCardBody {
+    color: black;
+    font-size:30px;
+}
