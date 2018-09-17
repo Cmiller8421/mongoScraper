@@ -19,11 +19,11 @@ app.use(express.static("public"));
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGODB_URI, {
-  // useMongoClient: true
+
 });
 
-// db.Headline.create();
-// db.Note.create();
+ db.Headline.create();
+ db.Note.create();
 
 require("./routes/index.js")(app)
 
